@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+.color-dark {
+  color: #323232;
+}
+
+.color-primary {
+  color: #36ab9d;
+}
+
+.color-light {
+  color: #ffffff;
+}
+
+.bg-p {
+  background: #36ab9d;
+}
+
+.bg-s {
+  background: #323232;
+}
+
+.bg-gr {
+  background: #f6f6f6;
+}
+
+.bg-w {
+  background: #ffffff;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+}
+
+p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.password-group {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #36ab9d;
+}
+/*# sourceMappingURL=style.css.map */
