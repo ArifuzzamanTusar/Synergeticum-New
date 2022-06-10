@@ -5,6 +5,7 @@
 $primary-color: #36ab9d;
 $secondary-color: #323232;
 $light-color: #f6f6f6;
+$primary-dark : #3F4F4D;
 
 // ------Global Elements-------
 
@@ -31,6 +32,9 @@ $light-color: #f6f6f6;
 
 .bg-gr {
     background: $light-color;
+}
+.bg-p-dark{
+    background: $primary-dark;
 }
 
 .bg-w {
@@ -77,4 +81,29 @@ p {
     top: 10px;
     right: 10px;
     color: $primary-color;
+}
+
+// |||||||||||||||||||||||||||||  FOOTER |||||||||||||||||||||||||||||
+
+
+.footer-menu-items ul{
+    margin:0;
+    padding: 0;
+}
+
+.footer-menu-items li{
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.footer-menu-items li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.footer-menu-items li a:hover{
+    text-decoration: none;
+    color: #e0e0e059;
+    margin-left: 5px;
 }
