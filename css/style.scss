@@ -6,6 +6,7 @@ $primary-color: #36ab9d;
 $secondary-color: #323232;
 $light-color: #f6f6f6;
 $primary-dark : #3F4F4D;
+$widget-bg : #FAFAFA;
 
 // ------Global Elements-------
 
@@ -59,6 +60,18 @@ p {
     line-height: 22px;
 }
 
+
+// ==================  TEXT STYLES ====================
+.text-right{
+    text-align: right;
+}
+
+
+// ===============  GLOBAL ELEMENTS ==================== 
+.widget-outined{
+    border: 1px solid $primary-color;
+    background: $widget-bg;
+}
 
 
 

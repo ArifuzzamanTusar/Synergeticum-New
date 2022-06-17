@@ -47,6 +47,15 @@ p {
   line-height: 22px;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.widget-outined {
+  border: 1px solid #36ab9d;
+  background: #FAFAFA;
+}
+
 .password-group {
   position: relative;
 }
