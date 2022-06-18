@@ -54,6 +54,7 @@ p {
 .widget-outined {
   border: 1px solid #36ab9d;
   background: #FAFAFA;
+  padding: 30px 20px;
 }
 
 .password-group {
